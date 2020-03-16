@@ -2,46 +2,46 @@
 
 * [Introduction](README.md)
 
-## 总览 
+##  Introduction
 
-* [关于Lava百科](about/about-lavawiki.md)
-* [了解Lava](about/about-learninglava.md)
-* [参考链接汇总](about/about-links.md)
-* [下载汇总](about/about-downloads.md)
+* [About Lava Wiki](about/about-lavawiki.md)
+* [Learn about Lava](about/about-learninglava.md)
+* [Ref Links](about/about-links.md)
+* [Downloads](about/about-downloads.md)
 
-## 火石 
+## Firestone 
 
-* [了解火石](firestone/firestone-firestone.md)
-* [购买与释放火石](firestone/firestone-firetoneoperation.md)
-* [了解冷火石](firestone/firestone-coldfirestone.md)
-* [加工和使用冷火石](firestone/firestone-coldfsoperation.md)
-* [火石FAQ](firestone/firestone-faq.md)
+* [Firestone](firestone/firestone-firestone.md)
+* [Using Firestone](firestone/firestone-firetoneoperation.md)
+* [ColdFirestone](firestone/firestone-coldfirestone.md)
+* [Using ColdFirestone](firestone/firestone-coldfsoperation.md)
+* [Firestone FAQ](firestone/firestone-faq.md)
 
-## 挖矿 
+## PoC Mining
 
-* [了解PoC共识](mining/mining-poc.md)
-* [P盘教程](mining/mining-plotting.md)
-* [Miner教程](mining/mining-miner.md)
-* [了解算力绑定](mining/mining-binding.md)
-* [发起与解除算力绑定](mining/mining-bindingoperation.md)
-* [挖矿FAQ](mining/mining-faq.md)
+* [PoC Consensus](mining/mining-poc.md)
+* [Plotting Guides](mining/mining-plotting.md)
+* [Miner Guides](mining/mining-miner.md)
+* [Binding](mining/mining-binding.md)
+* [Binding Operation](mining/mining-bindingoperation.md)
+* [Mining FAQ](mining/mining-faq.md)
 
-## 技术社区
+## Tech Club
 
-* [Lava开源代码](geeks/geeks-opensource.md)
-* [了解LVIP](geeks/geeks-lvipbasics.md)
-* [LVIP列表](geeks/geeks-lviplist.md)
-* [发展路线图](geeks/geeks-roadmap.md)
-* [跨链原子交换机](geeks/geeks-atomicswap.md)
-* [冷火石](geeks/geeks-coldfs.md)
-* [赏金计划-开源P盘软件](geeks/geeks-bountyforplotter.md)
+* [Lava Open Source](geeks/geeks-opensource.md)
+* [LVIP](geeks/geeks-lvipbasics.md)
+* [LVIP List](geeks/geeks-lviplist.md)
+* [Footprint and Roadmap](geeks/geeks-roadmap.md)
+* [Atomic Swap](geeks/geeks-atomicswap.md)
+* [ColdFirestone](geeks/geeks-coldfs.md)
+* [Bounty-OpenSourcePlotter](geeks/geeks-bountyforplotter.md)
 
-## 钱包
+## Wallets
 
-* [了解Lava钱包](wallet/wallet-basics.md)
-* [Windows全节点钱包教程](wallet/wallet-lavacore-win.md)
-* [Windows全节点GUI钱包教程](wallet/wallet-guiwallet.md)
-* [Windows轻钱包教程](wallet/wallet-winlightwallet.md)
-* [Android轻钱包教程](wallet/wallet-androidlightwallet.md)
-* [钱包FAQ](wallet/wallet-faq.md)
+* [Lava Wallets](wallet/wallet-basics.md)
+* [Windows LavaCore](wallet/wallet-lavacore-win.md)
+* [Windows LavaCore GUI](wallet/wallet-guiwallet.md)
+* [Windows SPV Wallet](wallet/wallet-winlightwallet.md)
+* [Android Wallet](wallet/wallet-androidlightwallet.md)
+* [Wallet FAQ](wallet/wallet-faq.md)
 
