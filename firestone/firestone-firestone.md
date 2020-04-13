@@ -1,54 +1,86 @@
-# 了解火石
+# A Guide for Lava Firestone
 
-## 什么是火石
 
-火石`Firestone`是Lava的贡献证明与权益证明。
+<br />
 
-火石是一种在链上动态生成、动态消耗的特殊凭证。
+### 1. Definition
 
-## 如何获得火石
+`Firestone` is a special built-in credential which is dynamically and consistantly created, consumed, or expired on-chain. 
 
-目前阶段，用户可以通过向系统抵押LV获得火石。
+a Firestone is:
 
-获得火石的行为可通俗地理解为“使用LV购买火石”，但需注意这只是通俗的理解，并不是真正的“购买”行为。
+1) a semi-token like on-chain credential based on the "Virtual Layering" concept;
 
-用户实际上是通过发起一笔特殊的链上交易，向系统抵押一定数量的LV，得到对应的火石。
+2) a representative of contribution to Lava's ecology;
 
-## 火石的“价格”
+3) a representative of governance rights to Lava's ecology;
 
-在发起“购买”火石的交易时，系统会定义一个“价格”，表示“抵押多少LV可以获得一个火石”。
+4) a representative of specific economic rights to Lava's ecology;
 
-火石的价格是由系统动态调整的。
+5) a representative of occupying resources from the system;
 
-## 火石周期`Slot`
+6) a carrier of voting rights in the on-chain governance mechanism;
 
-Lava区块链根据固定块高划分周期，称为火石周期`Slot`。
+7) a credential that is non-permanent, customizable and non-fungible.
 
-在主网中，每2048个块高构成一个火石周期。\(测试网与主网参数可能不一致，请查询测试网参数介绍部分获得详细信息\)
+In different stages of Lava Roadmap, Firestone will play different roles and support Layer 2 applications.
 
-用户需要在第N-1周期购买可在第N周期生效可使用的火石，该火石在第N+1周期过期（如果没有被使用的话）。
+<br />
 
-如果用户在火石生效的周期内成功出块，就可以消耗一个火石，该块即双倍产出块奖励。
+### 2. Get a Firestone
 
-例如在第一个减半周期内，正常产出320LV每块，如果在消耗火石的情况下，即可产出640LV每块。
+In the current stage, Firestone can be acquired by **staking LV to the system**.
 
-## 火石的过期和释放
+Simply put, any user can "buy" Firestone with his/her LV. Notice that it is not an one-time, irreversable "purchase" behavior, we would rather call it "buy" because we want to express the whole concept more familiar and understandable to all.  
 
-在第N-1周期购买的火石，在该周期内是不可使用的状态；
+Technically, the process of "buying a Firestone" is realized by **creating an on-chain transaction which "stakes" a certain quantity of LV to the system**.
 
-到第N周期生效可使用；
+<br />
 
-如果用户恰好在第N周期内出块，系统可消耗火石（一个块对应消耗一个火石），如果火石被消耗，抵押的LV会自动释放；
+### 3. the "Price" 
 
-如果用户在第N周期内没有出块，火石会在第N+1周期过期，用户需要手动释放过期未使用火石抵押的资金。
+There is a certain staking ratio (which is call the `Price`) indicating that how many LV you need to stake to the system to get a Firestone.
 
-## 火石的价格调整
+The `Price` is **dynamically adjusted** according to an special adjustment algorithm, which is defined in the consensus level.
 
-每个火石周期`Slot`都会由系统自动调整火石价格。
+<br />
 
-如果上一周期火石存量（即该周期内全网实际购买生成的火石数量）超过目标值2048，则本周期火石价格上调5%；
+### 4. the "Slot"
 
-如果上一周期火石存量（即该周期内全网实际购买生成的火石数量）低于目标值2048，则本周期火石价格下降5%；
+A `Slot` is a period of time, whose length is defined by `Height` on the blockchain.
 
-火石价格调整机制的目的是促进达到火石供需的动态平衡。
+In this way, the Lava Blockchain is divided by every `2048` blocks, and each divided result is called a `Slot`.
 
+For example, blocks from #0~#2047 constitute `Slot #0`, blocks from #2048~#4095 constitute `Slot #1`, and so on.
+
+The Firestone obtained by the user in the `N-1th Slot` is valid only in the `Nth Slot`. When the `Nth Slot` is over, the Firestone is automatically abolished (expired), and the staked funds will be returned.
+
+If a miner mines a block and he has a valid (which means consumable or usable) Firestone, he is allowed to consume a Firestone to get additional coinbase reward from this block, which is twice of the fundamental coinbase reward.
+
+For example, a new mined block produce 1) **320 LV** coinbase reward without Firestone consumed; 2) **640 LV** coinbase reward with a Firestone consumed.
+
+<br />
+
+### 5. Firestone expiration:
+
+As described above, the Firestone obtained by the miner in the `N-1th Slot` is valid only in the `Nth Slot`.
+
+If a Firestone is consumed in `Nth Slot` (of course the miner need to mine a block as a prerequisite), the corresponding fund (in terms of LV) that is staked in this Firestone will be released immediately.
+
+If a Firestone is unable to be consumed in `Nth Slot` (say, if the miner is not lucky enough to mine a block), the Firestone will be expired automatically in `N+1th Slot`, and whose fund staked needs to be freed manually via a special transaction.
+
+<br />
+
+### 6. Firestone Price Adjustment Algorithm
+
+The `Price` will be adjusted dynamically at the beginning of every new Slot coming. 
+
+There is a `target quantity` for Firestone in each Slot, which is set to `2048` in the `Lava Mainnet`.
+
+If the actual quantity of Firestone in the last Slot exceeds the `target quantity`, then the `Price` will increase by 5% in the coming Slot.
+
+If the actual quantity of Firestone in the last Slot does not exceed the `target quantity`, then the `Price` will decrease by 5% in the coming Slot.
+
+The objective of this adjustment algorithm is to strike a balance between market demand and Firestone supply.
+
+<br />
