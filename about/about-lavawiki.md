@@ -1,30 +1,26 @@
-# 关于Lava百科
+# About Lava Wiki
 
-**Lava百科**是有Lava社区成员、社区志愿者以及技术社区志愿者共同维护的百科全书式资料库。
-
-
-
-您可以在Lava百科：
-
-* 了解Lava的基本信息
-
-* 获取关于Lava的常用网站链接
-
-* 学习如何使用Lava钱包
-
-* 了解PoC共识机制
-
-* 了解Lava特有的算力绑定和火石机制
-
-* 解决常见的疑惑
-
-* 作为志愿者贡献原创内容
+**Lava Wiki/Lava Docs**is a mutually maintained and shared encyclopedia by all community members, volunteers and Lava Tech team.
 
 
 
-如需了解更多，可以移步Lava参考链接汇总：
+What you can do in Lava Wiki:
 
-[参考链接汇总](about-links.md)
+* Learn basic infomation about Lava;
 
-或者通过社交媒体联系Lava（中国）社区。
+* Get useful website links about Lava; 
+
+* Learn how to use Lava's wallets.
+
+* Learn about PoC (Proof of Capacity) consensus mechanism;
+
+* Learn about Lava's unique features, i.e. Firestone, Binding, LVIP......
+
+* Learn about solutions to common problems;
+
+* Help create and edit contents in Lava Wiki as a volunteer.
+
+
+To larn more about Lava Wiki, please contact Lava Community via e-mail or social platforms.
+
 
