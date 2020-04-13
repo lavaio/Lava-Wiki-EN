@@ -1,26 +1,26 @@
-# 参考链接汇总
+# A Summary of Reference Links:
 
-* Lava官方网站（中文版）：
+* Lava Official Website:
 
     <https://www.lavatech.org/>
 
-* Lava区块链浏览器（主网）：
+* Lava Blockchain Explorer (Mainnet)：
 
     <http://explorer.lavatech.org/>
 
-* Lava白皮书（中文版）：
+* Whitepaper：
 
     <https://www.lavatech.org/pdf>
 
-* GitHub开源代码：
+* GitHub Open Source Code：
 
     <https://github.com/lavaio/lava>
 
-* Lava改进提案系统（LVIP）：
+* Lava Improvement Proposals（LVIP）：
 
     <https://github.com/lavaio/lvips>
 
-* Lava官方公告栏：
+* Lava Bullet Board：
 
     <https://www.lavatech.org/notice>
 
