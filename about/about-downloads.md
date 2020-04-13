@@ -1,26 +1,20 @@
 # 下载汇总
 
-为确保下载链接的时效性，我们建议您移步至Lava官方网站-&gt;下载链接处根据所需进行下载。
+To gaurantee the timeliness and integrity of the download links, we highly recommand download links on Lava official site:
 
 <https://www.lavatech.org/>
 
-您可在官网首页顶部的菜单栏寻找到“下载”按钮，或拖动至首页底部导航栏选择下载项目。
+Go to the top bar from the homepage and click 'Downloads' to find the sub-page for all download items.
 
-目前，Lava官方网站提供以下所列下载项目：
+At present, you can find items from official site:
 
-* Linux全节点钱包
+* Lava Core (Full Node Wallets) for Win/Mac/Linux
 
-* Windows全节点钱包
+* Lava Mobile Wallet for Andriod/iOS
 
-* Mac OS全节点钱包
+* Lava Core GUI Wallet for Win/Mac
 
-* Windows轻钱包
+* HyperPlotter
 
-* Windows GUI全节点钱包（图形界面版本的全节点钱包）
-
-* Mac OS GUI全节点钱包（图形界面版本的全节点钱包）
-
-* Android手机钱包（轻钱包）
-
-* Lava Miner（Lava挖矿终端）
+* Lava Miner
 
