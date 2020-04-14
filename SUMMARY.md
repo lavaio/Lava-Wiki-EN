@@ -33,6 +33,7 @@
 * [LVIP List](geeks/geeks-lviplist.md)
 * [Footprint and Roadmap](geeks/geeks-roadmap.md)
 * [Atomic Swap](geeks/geeks-atomicswap.md)
+* [BTC-LV Atomic Swap Guide](geeks/geeks-btclvatomicswapguide.md)
 * [ColdFirestone](geeks/geeks-coldfs.md)
 * [Bounty-OpenSourcePlotter](geeks/geeks-bountyforplotter.md)
 
