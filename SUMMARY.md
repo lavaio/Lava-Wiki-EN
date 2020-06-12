@@ -46,3 +46,6 @@
 * [Android Wallet](wallet/wallet-androidlightwallet.md)
 * [Wallet FAQ](wallet/wallet-faq.md)
 
+## Lava Interpretation
+
+* [Merged Mining](interpretation/interpretation-mergedmining.md)
